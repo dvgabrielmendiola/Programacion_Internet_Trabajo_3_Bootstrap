@@ -1,0 +1,79 @@
+
+
+body {
+    font-family: "Monserrat", sans-serif;
+    overflow-x: hidden;
+    display: none;
+}
+@media(min-width: 309px){
+    body{
+        display: block;
+    }
+}
+
+#menu li > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form > button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#carouselExampleIndicators div > img{
+    height: auto;
+    object-fit: cover;
+}
+
+@media (min-width: 950px){
+    #carouselExampleIndicators div > img{
+        height: 710px;
+    }
+}
+@media (min-width: 1080px){
+    #carouselExampleIndicators div > img{
+        height: 820px;
+    }
+}
+
+@media (max-width: 768px){
+    #intro, #equipo {
+        width: 90% !important;
+    }
+
+    #bg-contacto {
+        top: -110px;
+    }
+}
+
+#equipoImg{
+    padding-bottom: 200px;
+}
+
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+
+#seccion-contacto{
+    background-color: #009000;
+    min-height: 400px;
+    position: relative;
+}
+
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    background-color: white;
+    border-radius: 5px;
+    max-width: 500px;
+    max-height: 600px;
+}
+
+#titulo-formulario{
+    color: #3f3f3f;
+}
